@@ -18,33 +18,59 @@ body{
 .poster2 {
   text-align: center;
   overflow: hidden;
-  border: 10px dashed black;
+  border: 10px solid brown;
   width: 300px;
   background-color: lightgray;
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(parchment.jpg);
+  border-radius: 45px;
 }
 
 .poster3 {
   text-align: center;
   overflow: hidden;
-  border: 10px dashed brown;
+  border: 10px double black;
   width: 300px;
-  background-color: tan;
+  background-color: gray;
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 35px;
+  outline: 4px solid red;
+  outline-offset: -7px;
 }
 
-.image{
+.image1{
   background-color: white;
-  border: solid black;
+  border: solid red;
   padding: 15px;
   width: 20%;
   margin-left: auto;
   margin-right: auto;
 }
+
+.image2{
+  background-color: white;
+  border: solid brown;
+  padding: 15px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image3{
+  background-color: white;
+  border: 10px double black;
+  padding: 15px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 4px solid red;
+  outline-offset: -7px;
+}
+
 img{
   height: 200px;
 }
