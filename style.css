@@ -1,8 +1,51 @@
 /* Insert any CSS code below here */
 
-div {
+body{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.poster {
   text-align: center;
   overflow: hidden;
-  border: 2px solid black;
+  border: 10px dashed red;
   width: 300px;
+  background-color: yellow;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image{
+  background-color: white;
+  border: solid black;
+  padding: 15px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  height: 200px;
+}
+
+h1{
+  font-size: 150px;
+  border-top: 6px solid black;
+  border-bottom: 6px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3{
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
